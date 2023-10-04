@@ -1,3 +1,3 @@
 # mern-todo-app
 
-# A simple TODO app. 
+A simple TODO app. 
