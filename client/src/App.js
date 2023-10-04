@@ -99,21 +99,3 @@ function App() {
 export default App;
 
 
-//651d947ebd1cc12469e398a2
-//651d944e39fe7dcd354df32f
-//651d944e39fe7dcd354df32f
-//651d9661522f4e2b6a08e1d1
-/*
-Failed to fetch
-TypeError: Failed to fetch
-    at addTodo (http://localhost:3000/static/js/bundle.js:54:24)
-    at HTMLUnknownElement.callCallback (http://localhost:3000/static/js/bundle.js:10994:18)
-    at Object.invokeGuardedCallbackDev (http://localhost:3000/static/js/bundle.js:11038:20)
-    at invokeGuardedCallback (http://localhost:3000/static/js/bundle.js:11095:35)
-    at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/static/js/bundle.js:11109:29)
-    at executeDispatch (http://localhost:3000/static/js/bundle.js:15253:7)
-    at processDispatchQueueItemsInOrder (http://localhost:3000/static/js/bundle.js:15279:11)
-    at processDispatchQueue (http://localhost:3000/static/js/bundle.js:15290:9)
-    at dispatchEventsForPlugins (http://localhost:3000/static/js/bundle.js:15299:7)
-    at http://localhost:3000/static/js/bundle.js:15459:16
-*/
