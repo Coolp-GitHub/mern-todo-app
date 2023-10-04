@@ -12,7 +12,6 @@ function App() {
 	}, []);
 
 	const GetTodos =  () => {
-		console.log("GET");
 		fetch(API_BASE + "/todos")
 			.then(res => res.json())
 			.then(data => setTodos(data))
@@ -20,7 +19,6 @@ function App() {
 	}
 
 	const completeTodo = async id => {
-		console.log("COMPLETE");
 		const data = await fetch(API_BASE + "/todo/complete/" + id)
 			.then(res => res.json())
 		setTodos(todos => todos.map(todo =>{
@@ -33,7 +31,6 @@ function App() {
 
 	const deleteTodo = async (id,e) =>{
 		e.stopPropagation();
-		console.log("DEL");
 		const data = await fetch(API_BASE + "/todo/delete/" + id, {method: "DELETE"})
 			.then(res => res.json())
 
@@ -41,7 +38,6 @@ function App() {
 	}
 	
 	const addTodo = async () =>{
-		console.log("ADD");
 		const data = await fetch(API_BASE + "/todo/new", {method:"POST",headers:{
 			"Content-Type":"application/json"
 		}, body: JSON.stringify({text: newTodo})})
